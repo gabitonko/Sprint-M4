@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="css\style.css">
+<link rel="stylesheet" href="css\bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <h2>Productos Disponibles</h2>
+    <div class="container">
+      <div class="row">
+          <!-- Elementos generados a partir del JSON -->
+          <main id="items" class="col-sm-8 row"></main>
+          <!-- Carrito -->
+          <aside class="col-sm-4">
+              <h2>Carrito</h2>
+              <!-- Elementos del carrito -->
+              <ul id="carrito" class="list-group"></ul>
+              <hr>
+              <!-- Precio total -->
+              <p class="text-right">Total neto: <span id="total"></span>CLP</p>
+              <p class="text-right">IVA: $<span id="iva"></span> </p>
+              <p class="text-right">Envío: <span id="envio"></span></p>
+              <p class="text-right">Total a pagar $<span id="tbruto"></span></p> 
+              <button id="boton-vaciar" class="btn btn-secondary">Vaciar</button>
+              <button id="boton-pagar" class="btn btn-secondary">Pagar</button>
+              
+          </aside>
+      </div>
+  </div>
+      
+      <!-- Botón "Agregar a la compra" -->
+    </div>
+    
+    
+    
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="js/app.js"></script>
+  <script src="js/data.js"></script>
+</body>
+
+</html>

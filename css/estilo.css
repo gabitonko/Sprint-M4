@@ -1,0 +1,9 @@
+body
+{ 
+    font-family:'Gill Sans';
+    width: 60vw; opacity: 0,2;
+    padding: 0vw 15vw 0vw 15vw;
+    background-color: rosybrown
+}
+header{text-align:center; 
+    font-size: x-large;}
